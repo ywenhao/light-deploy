@@ -1,0 +1,42 @@
+{
+  "name": "@bmjs/light-deploy",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "轻量级部署工具",
+  "author": "ywenhao",
+  "license": "MIT",
+  "keywords": [
+    "light-deploy",
+    "deploy",
+    "轻量级部署工具"
+  ],
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "bin": {
+    "deploy": "./dist/cli.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "deploy": "node ./dist/cli.mjs",
+    "build": "unbuild",
+    "dev": "unbuild --watch",
+    "lint": "eslint .",
+    "lint:fix": "pnpm run lint --fix"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "consola": "^3.4.2",
+    "fast-glob": "^3.3.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.11.0",
+    "@types/archiver": "^6.0.3",
+    "@types/node": "^22.13.11",
+    "node-ssh": "^13.2.1",
+    "unbuild": "^3.5.0",
+    "unconfig": "^7.3.1"
+  }
+}

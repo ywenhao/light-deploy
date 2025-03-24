@@ -1,0 +1,6 @@
+packages:
+  - '!**/test/**'
+onlyBuiltDependencies:
+  - cpu-features
+  - esbuild
+  - ssh2
