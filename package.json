@@ -1,7 +1,7 @@
 {
   "name": "@bmjs/light-deploy",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "轻量级部署工具",
   "author": "ywenhao",
   "license": "MIT",
@@ -14,13 +14,13 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.mts",
   "bin": {
-    "deploy": "./dist/cli.mjs"
+    "light-deploy": "./dist/cli.mjs"
   },
   "files": [
     "dist"
   ],
   "scripts": {
-    "deploy": "node ./dist/cli.mjs",
+    "light-deploy": "node ./dist/cli.mjs",
     "build": "unbuild",
     "dev": "unbuild --watch",
     "lint": "eslint .",
