@@ -5,6 +5,8 @@
 ### 安装
 ```shell
 pnpm i @bmjs/light-deploy -D
+
+pnpm approve-builds
 ```
 
 ### 配置
