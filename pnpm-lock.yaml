@@ -14,9 +14,12 @@ importers:
       consola:
         specifier: ^3.4.2
         version: 3.4.2
-      fast-glob:
-        specifier: ^3.3.3
-        version: 3.3.3
+      node-ssh:
+        specifier: ^13.2.1
+        version: 13.2.1
+      unconfig:
+        specifier: ^7.3.1
+        version: 7.3.1
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^4.11.0
@@ -27,15 +30,9 @@ importers:
       '@types/node':
         specifier: ^22.13.11
         version: 22.13.11
-      node-ssh:
-        specifier: ^13.2.1
-        version: 13.2.1
       unbuild:
         specifier: ^3.5.0
         version: 3.5.0(typescript@5.7.2)
-      unconfig:
-        specifier: ^7.3.1
-        version: 7.3.1
 
 packages:
 

@@ -1,7 +1,7 @@
 {
   "name": "@bmjs/light-deploy",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "轻量级部署工具",
   "author": "ywenhao",
   "license": "MIT",
@@ -29,14 +29,13 @@
   "dependencies": {
     "archiver": "^7.0.1",
     "consola": "^3.4.2",
-    "fast-glob": "^3.3.3"
+    "node-ssh": "^13.2.1",
+    "unconfig": "^7.3.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.11.0",
     "@types/archiver": "^6.0.3",
     "@types/node": "^22.13.11",
-    "node-ssh": "^13.2.1",
-    "unbuild": "^3.5.0",
-    "unconfig": "^7.3.1"
+    "unbuild": "^3.5.0"
   }
 }
