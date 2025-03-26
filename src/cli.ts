@@ -37,7 +37,7 @@ async function zipFiles(config: DeployOptions) {
     })
 
     output.on('close', () => {
-      consola.success(`output-close--${zipFilename} 打包成功, ${archive.pointer()} bytes`)
+      consola.success(`${zipFilename} 打包成功, ${archive.pointer()} bytes`)
       resolve()
     })
 
