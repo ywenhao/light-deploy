@@ -22,6 +22,7 @@
   "scripts": {
     "light-deploy": "node ./dist/cli.mjs",
     "build": "unbuild",
+    "build:tsdown": "tsdown",
     "dev": "unbuild --watch",
     "lint": "eslint .",
     "lint:fix": "pnpm run lint --fix"
@@ -36,6 +37,7 @@
     "@antfu/eslint-config": "^4.11.0",
     "@types/archiver": "^6.0.3",
     "@types/node": "^22.13.11",
+    "tsdown": "^0.8.1",
     "unbuild": "^3.5.0"
   }
 }
