@@ -20,12 +20,11 @@
     "dist"
   ],
   "scripts": {
-    "light-deploy": "node ./dist/cli.mjs",
-    "build": "unbuild",
-    "build:tsdown": "tsdown",
-    "dev": "unbuild --watch",
+    "build": "tsdown",
+    "dev": "tsdown --watch",
     "lint": "eslint .",
-    "lint:fix": "pnpm run lint --fix"
+    "lint:fix": "pnpm run lint --fix",
+    "light-deploy": "node ./dist/cli.mjs"
   },
   "dependencies": {
     "archiver": "^7.0.1",
