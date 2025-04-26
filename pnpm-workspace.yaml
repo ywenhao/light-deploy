@@ -1,6 +1,8 @@
 packages:
   - '!**/test/**'
+
 onlyBuiltDependencies:
   - cpu-features
   - esbuild
+  - rolldown
   - ssh2
