@@ -41,5 +41,6 @@ export default defineConfig({
   }
 }
 
-- `deploy.config.[mode].ts`文件名中的`[mode]` 和 `package.json` 中的 `light-deploy --mode [mode]` 保持一致
 ```
+
+- `deploy.config.[mode].ts`文件名中的`[mode]` 和 `package.json` 中的 `light-deploy --mode [mode]` 保持一致
