@@ -36,7 +36,7 @@ export default defineConfig({
 // package.json
 {
   "scripts": {
-    "deploy": "light-deploy --mode development",
+    "deploy": "light-deploy",
     // "deploy:prod": "light-deploy --mode prod",
   }
 }
