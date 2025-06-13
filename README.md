@@ -12,6 +12,7 @@ pnpm approve-builds
 ### 配置
 ```ts
 // deploy.config.ts
+// deploy.config.prod.ts
 
 import { defineConfig } from '@bmjs/light-deploy'
 
@@ -35,6 +36,10 @@ export default defineConfig({
 // package.json
 {
   "scripts": {
-    "deploy": "light-deploy"
+    "deploy": "light-deploy --mode development",
+    // "deploy:prod": "light-deploy --mode prod",
   }
 }
+
+- `deploy.config.[mode].ts`文件名中的`[mode]` 和 `package.json` 中的 `light-deploy --mode [mode]` 保持一致
+```

@@ -10,11 +10,11 @@
     "deploy",
     "轻量级部署工具"
   ],
-  "main": "dist/index.mjs",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.mts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "bin": {
-    "light-deploy": "./dist/cli.mjs"
+    "light-deploy": "./dist/cli.js"
   },
   "files": [
     "dist"
@@ -24,7 +24,8 @@
     "dev": "tsdown --watch",
     "lint": "eslint .",
     "lint:fix": "pnpm run lint --fix",
-    "light-deploy": "node ./dist/cli.mjs"
+    "light-deploy": "node ./dist/cli.js",
+    "light-deploy:prod": "node ./dist/cli.js --mode prod"
   },
   "dependencies": {
     "archiver": "^7.0.1",
@@ -36,7 +37,7 @@
     "@antfu/eslint-config": "^4.11.0",
     "@types/archiver": "^6.0.3",
     "@types/node": "^22.13.11",
-    "tsdown": "^0.12.6",
+    "tsdown": "^0.12.7",
     "unbuild": "^3.5.0"
   }
 }
