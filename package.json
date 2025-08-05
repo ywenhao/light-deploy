@@ -31,13 +31,13 @@
     "archiver": "^7.0.1",
     "consola": "^3.4.2",
     "node-ssh": "^13.2.1",
-    "unconfig": "^7.3.1"
+    "unconfig": "^7.3.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.11.0",
+    "@antfu/eslint-config": "^5.1.0",
     "@types/archiver": "^6.0.3",
-    "@types/node": "^22.13.11",
-    "tsdown": "^0.12.7",
-    "unbuild": "^3.5.0"
+    "@types/node": "^24.2.0",
+    "tsdown": "^0.13.3",
+    "unbuild": "^3.6.0"
   }
 }

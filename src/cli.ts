@@ -3,7 +3,7 @@ import { createWriteStream, existsSync } from 'node:fs'
 import { mkdir, unlink } from 'node:fs/promises'
 import path from 'node:path'
 import archiver from 'archiver'
-import consola from 'consola'
+import { consola } from 'consola'
 import { NodeSSH } from 'node-ssh'
 import { configLoader } from './config'
 
