@@ -1,7 +1,7 @@
 {
   "name": "@bmjs/light-deploy",
   "type": "module",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "轻量级部署工具",
   "author": "ywenhao",
   "license": "MIT",
