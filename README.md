@@ -24,7 +24,7 @@ export default defineConfig({
     port: 22
   },
   project: {
-    // 本地项目根目录
+    // 本地项目打包产物所在目录
     distDir: 'dist',
     // 对应服务器上项目所在目录
     serverWebDir: '/root/test'
