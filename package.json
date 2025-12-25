@@ -10,11 +10,11 @@
     "deploy",
     "轻量级部署工具"
   ],
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.mts",
   "bin": {
-    "light-deploy": "./dist/cli.js"
+    "light-deploy": "./dist/cli.mjs"
   },
   "files": [
     "dist"
