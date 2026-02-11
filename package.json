@@ -23,7 +23,7 @@
     "build": "tsdown",
     "dev": "tsdown --watch",
     "lint": "eslint .",
-    "lint:fix": "pnpm run lint --fix",
+    "lint:fix": "eslint . --fix",
     "light-deploy": "node ./dist/cli.js",
     "light-deploy:prod": "node ./dist/cli.js --mode prod"
   },
@@ -37,7 +37,9 @@
     "@antfu/eslint-config": "^7.4.3",
     "@types/archiver": "^7.0.0",
     "@types/node": "^24.10.13",
+    "eslint": "^9.39.2",
     "tsdown": "^0.20.3",
+    "typescript": "^5.9.3",
     "unbuild": "^3.6.1"
   }
 }
