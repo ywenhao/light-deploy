@@ -34,10 +34,10 @@
     "unconfig": "^7.4.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.7.3",
+    "@antfu/eslint-config": "^7.4.3",
     "@types/archiver": "^7.0.0",
-    "@types/node": "^24.10.4",
-    "tsdown": "^0.18.2",
+    "@types/node": "^24.10.13",
+    "tsdown": "^0.20.3",
     "unbuild": "^3.6.1"
   }
 }
